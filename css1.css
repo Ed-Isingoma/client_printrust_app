@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+}
+
+.text {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  padding: 30px 0;
+  color: #444;
+}
+
+.file-names {
+  display: none;
+}
+
+.upload-button {
+  margin: 25px 5%;
+  display: inline;
+  width: 35%;
+  padding: 10px 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.info a {
+  color: rgb(1, 65, 65);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.info a:hover{
+  color: rgb(0, 157, 157);
+}
+.add {
+  background-color: #4e2a84;
+
+}
+
+.add:hover {
+  background-color: #3b1e60;
+}
+
+.send {
+  background-color: #918f94;
+}
+.specialP {
+  font-weight: bold;
+}
+
+.info {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #666;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .text,
+  .info {
+    font-size: 1.1rem;
+  }
+  .upload-button {
+    padding: 5px 5px;
+    font-size: 1.5rem;
+    margin: 18px 5%;
+  }
+}

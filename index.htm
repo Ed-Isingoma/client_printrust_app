@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrinTrust Web</title>
+    <link rel="stylesheet" href="css1.css">
+</head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <p class="text">To convert your document(s) into a printrust file, first tap/click 'Add file' to upload.</p>
+            </div>
+            <div class="file-names">
+                Files selected;</br>
+                <ul></ul>
+            </div>
+            <input type="file" id="file-input" hidden>
+            <button class="upload-button add" onclick="addfile()">Add file</button>
+            <button class="upload-button send" onclick="sendover()" disabled>
+                Convert
+            </button>
+            <p class="info">
+                # We wipe your personal docs off that stationer's PC automatically. Remember, the file you transfer and print from there remains there until it gets <span class="specialP">closed</span>.</br>
+                # But, we can only do our thing when the stationer also has <span class="specialP">"Printrust for Stationers"</span> installed. If they dont have it installed, send it to them... it's right <a href="">here.</a>
+                
+            </p>
+        </div>
+        <script src="encode.js"></script>
+    </body>
+</html>
